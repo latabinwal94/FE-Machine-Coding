@@ -20,7 +20,6 @@ function App() {
           page: pageNumber
         }), { signal: controllerRef.current.signal })
         const data = await promise.json() || []
-        console.log(data, 'data')
         setData((prevData) => [...prevData, ...data?.docs])
         resolve()
       } catch(e) {

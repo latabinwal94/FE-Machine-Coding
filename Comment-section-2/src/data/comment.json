@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "content": "This is the first comment",
+        "vote": 1,
+        "replies": [
+            {
+                "id": 2,
+                "content": "This is  a reply to the first comment",
+                "vote": 3,
+                "replies": []
+            },
+            {
+                "id": 3,
+                "content": "This is  another reply to the first comment",
+                "vote": 1,
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "content": "This is the second comment",
+        "vote": 5,
+        "replies": [
+            {
+                "id": 5,
+                "content": "This is  a reply to the second comment",
+                "vote": 5,
+                "replies": []
+            },
+            {
+                "id": 6,
+                "content": "This is  another reply to the second comment",
+                "vote": 4,
+                "replies": []
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "content": "This is the third comment",
+        "vote": 8,
+        "replies": []
+    }
+]
